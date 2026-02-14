@@ -11,5 +11,5 @@ Cost Allocation Tags
 - Tag your AWS resources [Ex: For bulk tagging existing resources you can use: Tag Editor in AWS console, Terraform default_tags, Scripts with boto3 / AWS CLI]
 - Activate them as cost allocation tags [Ex: AWS Console → Billing & Cost Management → Cost allocation tags → User-defined cost allocation tags, locate the keys: Environment, Application, Owner, CostCenter (may take up to 24 hours after first use to appear) → Activate]
 - Use tags in Cost Explorer [Ex: Cost Explorer → use 
-    Group by → Tag: Environment / Application / Owner / CostCenter to see cost by that tag
-    Filters → Tag to restrict, for example, only Environment = prod or CostCenter = CC1234]
+    - Group by → Tag: Environment / Application / Owner / CostCenter to see cost by that tag
+    - Filters → Tag to restrict, for example, only Environment = prod or CostCenter = CC1234]
