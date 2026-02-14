@@ -1,10 +1,10 @@
-AWS – enable Cost Explorer
-- Billing and Cost Management - Cost Explorer - Enable/Launch Cost Explorer.
+# AWS – enable Cost Explorer
 
-For AWS Cost Explorer -- the console UI is free to enable and use; you only pay for certain advanced features.
-UI usage: Viewing charts/tables, creating saved views, and using default reports in the AWS console costs 0 USD.
-API calls: Cost Explorer APIs (e.g., GetCostAndUsage, GetCostForecast) cost 0.01 USD per request; heavy dashboards or frequent jobs can add up but are still usually low.
-Hourly granularity: Optional[EC2 only -- get cost details per instance]; priced at 0.01 USD per 1,000 hourly usage records per month, which is extremely cheap (about 0.003 USD/month for one always‑on EC2 instance).
+Billing and Cost Management - Cost Explorer - Enable/Launch Cost Explorer.
+- For AWS Cost Explorer -- the console UI is free to enable and use; you only pay for certain advanced features.
+- UI usage: Viewing charts/tables, creating saved views, and using default reports in the AWS console costs 0 USD.
+- API calls: Cost Explorer APIs (e.g., GetCostAndUsage, GetCostForecast) cost 0.01 USD per request; heavy dashboards or frequent jobs can add up but are still usually low.
+- Hourly granularity: Optional [EC2 only -- get cost details per instance]; priced at 0.01 USD per 1,000 hourly usage records per month, which is extremely cheap (about 0.003 USD/month for one always‑on EC2 instance).
 
 Cost Allocation Tags
 - Decide the exact tag keys [Ex: Environment, Application, Owner, and CostCenter]
