@@ -13,3 +13,7 @@ Cost Allocation Tags
 - Use tags in Cost Explorer [Ex: Cost Explorer → use 
     - Group by → Tag: Environment / Application / Owner / CostCenter to see cost by that tag
     - Filters → Tag to restrict, for example, only Environment = prod or CostCenter = CC1234]
+
+Enable AWS Budgets
+- Monthly account budget
+- Service-level budgets (EC2, RDS, NAT Gateway)
